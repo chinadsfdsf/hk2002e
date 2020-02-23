@@ -783,9 +783,9 @@ anchor = "smart"
   enableFooter   = true
   # used in layouts/partials/front.recent_posts.html
   enableFront    = true
-  title    = "民主救国阵线"
+  #title    = "民主救国阵线"
+  title    = " 2020年2月的新聞e "
   subtitle = '''
-2020年2月的新聞e , 
 本网站在大陆可以直接浏览，无需VPN
 '''
 
