@@ -198,7 +198,7 @@ anchor = "smart"
 
 [[menu.main]]
   weight = 85
-  name   = "其它索引"
+  name   = "总索引"
   url    = "/hot/endothers/"
   pre    = "Hot"
 [[menu.main]]
@@ -210,6 +210,11 @@ anchor = "smart"
   weight = 87
   name   = "共匪之害"
   url    = "/hot/fuckccp/"
+  pre    = "Hot"
+[[menu.main]]
+  weight = 88
+  name   = "蕭若元"
+  url    = "/hot/memehongkong/"
   pre    = "Hot"
 
 
