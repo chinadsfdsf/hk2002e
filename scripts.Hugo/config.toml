@@ -180,13 +180,13 @@ anchor = "smart"
 
 [[menu.main]]
   weight = 70
-  name   = "日期分类"
+  name   = "分类列表1"
   url    = "/categories/"
    pre    = "fas fa-info"
 
 [[menu.main]]
   weight = 80
-  name   = "标签分类"
+  name   = "分类列表2"
   url    = "/tags/"
   pre    = "fas fa-info-circle"
 
