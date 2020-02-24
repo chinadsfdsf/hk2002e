@@ -178,16 +178,28 @@ anchor = "smart"
 #   url    = "/faq"
 #   pre    = "far fa-question-circle"
 
-[[menu.main]]
-  weight = 70
-  name   = "分类列表1"
-  url    = "/categories/"
-   pre    = "fas fa-info"
+#[[menu.main]]
+#  weight = 70
+#  name   = "分类列表1"
+#  url    = "/categories/"
+#   pre    = "fas fa-info"
 
 [[menu.main]]
   weight = 80
   name   = "分类列表2"
   url    = "/tags/"
+  pre    = "fas fa-info-circle"
+
+[[menu.main]]
+  weight = 81
+  name   = "youtube"
+  url    = "/hot/youtube"
+  pre    = "fas fa-info-circle"
+
+[[menu.main]]
+  weight = 82
+  name   = "twitter"
+  url    = "/hot/twitter"
   pre    = "fas fa-info-circle"
 
 #[[menu.main]]
