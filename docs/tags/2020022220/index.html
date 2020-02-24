@@ -829,8 +829,8 @@ memehongkong:醫學原理知多啲！講你知世界不同的應對方法〈蕭�
     </script>
 
     
-<div id="PPPdynTime01"></div>
-<div id="PPPdynTime02"></div>
+<a id="PPPdynTime01"></a>
+<a id="PPPdynTime02"></a>
 <script>
 (function () {
     function startTime() {
@@ -839,9 +839,9 @@ memehongkong:醫學原理知多啲！講你知世界不同的應對方法〈蕭�
         }, 59000);
 
         var dynTime00 = new Date();
-        document.getElementById('PPPdynTime01').innerHTML = "San_Francisco : " +
+        document.getElementById('PPPdynTime01').innerHTML = "SFO:" +
         dynTime00.toLocaleString("en-US", {timeZone: "America/Los_Angeles"});
-        document.getElementById('PPPdynTime02').innerHTML = "__Hong_Kong : " +
+        document.getElementById('PPPdynTime02').innerHTML = "_HK:" +
         dynTime00.toLocaleString("en-US", {timeZone: "Asia/Hong_Kong"});
     }
     startTime();
