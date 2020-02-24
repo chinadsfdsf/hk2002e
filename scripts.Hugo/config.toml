@@ -17,6 +17,11 @@ defaultContentLanguage = "cn"
 
 #disableFastRender=true
 
+## gohugo.io/content-management/taxonomies/
+## If you do not want Hugo to create any taxonomies, 
+##     set disableKinds in your site config to the following:
+#disableKinds = ["taxonomy", "taxonomyTerm"]
+
 # Enable Emoji emoticons support for page content; see emoji-cheat-sheet.com
 #enableEmoji   = true
 enableEmoji   = false
@@ -186,8 +191,9 @@ anchor = "smart"
 
 [[menu.main]]
   weight = 80
-  name   = "分类列表2"
-  url    = "/tags/"
+  name   = "分类列表"
+  #url    = "/tags/"
+  url    = "/hot/alltags/"
   pre    = "fas fa-info-circle"
 
 [[menu.main]]
