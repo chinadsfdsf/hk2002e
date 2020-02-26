@@ -191,7 +191,8 @@ anchor = "smart"
 
 [[menu.main]]
   weight = 80
-  name   = "分类列表"
+  #name   = "分类列表"
+  name   = "总索引"
   #url    = "/tags/"
   url    = "/hot/alltags/"
   pre    = "fas fa-info-circle"
@@ -216,7 +217,7 @@ anchor = "smart"
 
 [[menu.main]]
   weight = 85
-  name   = "总索引"
+  name   = "其他月份"
   url    = "/hot/endothers/"
   pre    = "Hot"
 [[menu.main]]
