@@ -11,4 +11,4 @@ categories:
   - features
 ---
 
-{{< my2genlistbytag >}}
+{{< my2genlistbytag "alltags" >}}
