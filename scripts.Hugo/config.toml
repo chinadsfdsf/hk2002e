@@ -111,6 +111,7 @@ anchor = "smart"
 [taxonomies]
   tag      = "tags"
   category = "categories"
+  author   = "authors"
 
 [Permalinks]
   blog = "/blog/:year/:month/:day/:filename/"
