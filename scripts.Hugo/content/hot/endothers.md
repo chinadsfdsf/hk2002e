@@ -20,7 +20,6 @@ categories:
 {{< mydiv4o link="https://hk2002c.chinadsf.org/"  text="hk2002c  2020年2月的新聞c">}}
 {{< mydiv4o link="https://hk2002d.chinadsf.org/"  text="hk2002d  2020年2月的新聞d">}}
 {{< mydiv4o link="https://hk2002e.chinadsf.org/"  text="hk2002e  2020年2月的新聞e <<<<<====== ">}}
-{{< mydiv4o link="https://hk2002f.chinadsf.org/"  text="hk2002f  2020年2月的新聞f">}}
 {{< mydiv4o link="https://hk2003.chinadsf.org/"   text="hk2003   2020年3月的新聞">}}
 {{< mydiv4o link="https://hk2004.chinadsf.org/"   text="hk2004   2020年4月的新聞">}}
 {{< mydiv4o link="https://hk2005.chinadsf.org/"   text="hk2005   2020年5月的新聞">}}
