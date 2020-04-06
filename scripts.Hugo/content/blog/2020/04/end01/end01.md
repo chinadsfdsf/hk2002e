@@ -1,10 +1,10 @@
 ---
 title : " guide 分網站列表（導航）自动跳转 "
-date:        2020-03-01T13:45:07-07:00
+date:        2020-04-05T09:49:07-07:00
 tags:
- - tbq
+ - end
 categories:
-  - 202001
+  - 202003
   - end
 #icon:        "fas fa-lock-open"
 #resImgTeaser: teaserpics/wikipedia.org/emacs-jokes.png
@@ -15,3 +15,5 @@ categories:
 
 {{< my2goto "/hot/endothers/" >}}
 
+
+{{< my2m3uexist "music.m3u8" "red" >}} {{< my2m3uexist "music.xspf" "blue" >}}{{< my2span " <<<=== IPTV 播放器或者 VLC 播放器 " >}}
