@@ -710,7 +710,7 @@
 
 
     <div class="w3-right"><i class="far fa-calendar" aria-hidden="true"></i>&nbsp;<i>26. Feb 2020</i></div>baiqiao tang 唐柏桥: “印度举国欢迎川普总统，不仅仅是川普为美印两国人民做了正确的事情，更重要的是为捍卫人类文明做出了不朽贡献！印度很快将成为美国最大贸易伙伴和生产基地，这是美国历届领导人做出的最明智决定！如果没有川普采取的一系列果断措施遏制中共，今天人类面临的是更不可想象的灾难！我乐见民主的印度崛起！”<br>
-原始來源網址  V全部  播放器  目录  M2
+原始來源網址  单曲  全部  播放器  目录  M1  M2
 
   </div>
 </a>
@@ -1009,8 +1009,26 @@
     }
     startTime();
 })();
+    <!-- mytime12 end -->
+
+function copy2clipboard(text) {
+    if (!navigator.clipboard) {
+        fallbackCopyTextToClipboard(text);
+        return;
+    }
+    navigator.clipboard.writeText(text)
+}
+function abspath2(path2) {
+    return new URL( path2 , window.location.href ).href;
+}
+function copypath2clipboard(text3) {
+    copy2clipboard( abspath2(text3) )
+}
+function gotopath4(goto4) {
+    window.setTimeout(function(){window.top.location=abspath2(goto4)} , 1000);
+}
+
 </script>
-    
 
 
   </body>

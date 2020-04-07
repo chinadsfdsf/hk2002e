@@ -673,7 +673,7 @@
 
 
     <div class="w3-right"><i class="far fa-calendar" aria-hidden="true"></i>&nbsp;<i>24. Feb 2020</i></div>Anthony: “@TuCaoNews 聽黨話，跟黨走，果然是好豬”<br>
-原始來源網址  V全部  播放器  目录  M2
+原始來源網址  单曲  全部  播放器  目录  M1  M2
 
   </div>
 </a>
@@ -717,7 +717,7 @@
 
 
     <div class="w3-right"><i class="far fa-calendar" aria-hidden="true"></i>&nbsp;<i>24. Feb 2020</i></div>任公梦: “北京打压美媒三记者&amp;#10;传白宫将采取对等原则&amp;#10;驱逐数百名北京官媒记者&amp;#10;🤔”<br>
-原始來源網址  V全部  播放器  目录  M2
+原始來源網址  单曲  全部  播放器  目录  M1  M2
 
   </div>
 </a>
@@ -1021,8 +1021,26 @@
     }
     startTime();
 })();
+    <!-- mytime12 end -->
+
+function copy2clipboard(text) {
+    if (!navigator.clipboard) {
+        fallbackCopyTextToClipboard(text);
+        return;
+    }
+    navigator.clipboard.writeText(text)
+}
+function abspath2(path2) {
+    return new URL( path2 , window.location.href ).href;
+}
+function copypath2clipboard(text3) {
+    copy2clipboard( abspath2(text3) )
+}
+function gotopath4(goto4) {
+    window.setTimeout(function(){window.top.location=abspath2(goto4)} , 1000);
+}
+
 </script>
-    
 
 
   </body>

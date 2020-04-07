@@ -806,7 +806,7 @@
 
 
     <div class="w3-right"><i class="far fa-calendar" aria-hidden="true"></i>&nbsp;<i>23. Feb 2020</i></div>花溪（花婆娑）🇨🇦HK✊（来自大陆）: “今日金句&amp;#10;&amp;#10;问：为啥疫情形势这么严峻，还要铤而走险复工呢？&amp;#10;&amp;#10;答：再TM不复工的话，“国家养活了你”这句话就没人信了&amp;#10;&amp;#10;😁😁😁”<br>
-原始來源網址  V全部  播放器  目录  M2
+原始來源網址  单曲  全部  播放器  目录  M1  M2
 
   </div>
 </a>
@@ -847,7 +847,7 @@
 
 
     <div class="w3-right"><i class="far fa-calendar" aria-hidden="true"></i>&nbsp;<i>23. Feb 2020</i></div>baiqiao tang 唐柏桥: “台灣是中共國周邊武漢肺炎疫情最輕的地方（28例）。韓國確診556例，日本725例。香港69例，新加坡89例，泰國也達到33例。台灣與大陸同文同種，如果沒有蔡英文對中共強硬導致中共取消自由行，如果是高唱「人進來貨出去」的韓國瑜和國民黨當道，台灣就會成為重災區。天佑華人民主燈塔台灣！”<br>
-原始來源網址  V全部  播放器  目录  M2
+原始來源網址  单曲  全部  播放器  目录  M1  M2
 
   </div>
 </a>
@@ -1024,8 +1024,26 @@
     }
     startTime();
 })();
+    <!-- mytime12 end -->
+
+function copy2clipboard(text) {
+    if (!navigator.clipboard) {
+        fallbackCopyTextToClipboard(text);
+        return;
+    }
+    navigator.clipboard.writeText(text)
+}
+function abspath2(path2) {
+    return new URL( path2 , window.location.href ).href;
+}
+function copypath2clipboard(text3) {
+    copy2clipboard( abspath2(text3) )
+}
+function gotopath4(goto4) {
+    window.setTimeout(function(){window.top.location=abspath2(goto4)} , 1000);
+}
+
 </script>
-    
 
 
   </body>

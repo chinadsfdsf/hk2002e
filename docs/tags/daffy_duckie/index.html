@@ -630,7 +630,7 @@
 
 
     <div class="w3-right"><i class="far fa-calendar" aria-hidden="true"></i>&nbsp;<i>26. Feb 2020</i></div>✝️Popeye✝️: “@MischaEDM 重磅！加拿大官方突改口：难以阻止疫情爆发，请大家做好准备！首府医疗官建议屯药屯食物。此前，加拿大坚称加爆发新冠病毒可能性很低。24日，加卫生部首席医学官谭咏诗承认：如果病毒继续在世界范围传播，加拿大将不再能控制该病毒，并警告政府企业及个人应该为病毒爆发做好准备，医院里病床都不够用。”<br>
-原始來源網址  V全部  播放器  目录  M2
+原始來源網址  单曲  全部  播放器  目录  M1  M2
 
   </div>
 </a>
@@ -802,8 +802,26 @@
     }
     startTime();
 })();
+    <!-- mytime12 end -->
+
+function copy2clipboard(text) {
+    if (!navigator.clipboard) {
+        fallbackCopyTextToClipboard(text);
+        return;
+    }
+    navigator.clipboard.writeText(text)
+}
+function abspath2(path2) {
+    return new URL( path2 , window.location.href ).href;
+}
+function copypath2clipboard(text3) {
+    copy2clipboard( abspath2(text3) )
+}
+function gotopath4(goto4) {
+    window.setTimeout(function(){window.top.location=abspath2(goto4)} , 1000);
+}
+
 </script>
-    
 
 
   </body>

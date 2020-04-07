@@ -629,7 +629,7 @@
   <!-- partials/resource.image.html  --> 
 
 
-    <div class="w3-right"><i class="far fa-calendar" aria-hidden="true"></i>&nbsp;<i>25. Feb 2020</i></div>memehongkong:   YN03220200225_fuo8bvi6ij0.mp4 下载视频 1990746 byte , 1.9 MiB 20200225_fuo8bvi6ij0.mp4 下载 jpg  部分手机显示不正常， 请横屏播放，或全屏播放  memehongkong:解讀馬來西亞詭譎政局 睇完呢條片就不會再一頭霧水〈蕭若元：理論蕭析〉2020-02-26 …
+    <div class="w3-right"><i class="far fa-calendar" aria-hidden="true"></i>&nbsp;<i>25. Feb 2020</i></div>memehongkong:   YN03220200225_fuo8bvi6ij0.mp4 下载视频 1990746 byte , 1.9 MiB 20200225_fuo8bvi6ij0.mp4 下载 jpg  部分手机显示不正常， 请横屏播放，或全屏播放  memehongkong:解讀馬來西亞詭譎政局 睇完呢條片就不會再一頭霧水〈蕭若元：理論蕭析〉2020-02-26   原始來源網址  单 …
 
   </div>
 </a>
@@ -833,7 +833,7 @@
 
 
     <div class="w3-right"><i class="far fa-calendar" aria-hidden="true"></i>&nbsp;<i>25. Feb 2020</i></div>baiqiao tang 唐柏桥: “我很希望能从推特上看到更多有价值的第一手信息。如果您经常及时发布国内外动态，尤其是国内武汉肺炎和民众抗议的第一手信息，请您@我的推号，通知我关注您的推号。我一定粉您！谢谢！”<br>
-原始來源網址  V全部  播放器  目录  M2
+原始來源網址  单曲  全部  播放器  目录  M1  M2
 
   </div>
 </a>
@@ -1005,8 +1005,26 @@
     }
     startTime();
 })();
+    <!-- mytime12 end -->
+
+function copy2clipboard(text) {
+    if (!navigator.clipboard) {
+        fallbackCopyTextToClipboard(text);
+        return;
+    }
+    navigator.clipboard.writeText(text)
+}
+function abspath2(path2) {
+    return new URL( path2 , window.location.href ).href;
+}
+function copypath2clipboard(text3) {
+    copy2clipboard( abspath2(text3) )
+}
+function gotopath4(goto4) {
+    window.setTimeout(function(){window.top.location=abspath2(goto4)} , 1000);
+}
+
 </script>
-    
 
 
   </body>

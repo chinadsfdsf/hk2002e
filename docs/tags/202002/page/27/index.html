@@ -839,7 +839,7 @@
 
 
     <div class="w3-right"><i class="far fa-calendar" aria-hidden="true"></i>&nbsp;<i>23. Feb 2020</i></div>花溪（花婆娑）🇨🇦HK✊（来自大陆）: “今日金句&amp;#10;&amp;#10;问：为啥疫情形势这么严峻，还要铤而走险复工呢？&amp;#10;&amp;#10;答：再TM不复工的话，“国家养活了你”这句话就没人信了&amp;#10;&amp;#10;😁😁😁”<br>
-原始來源網址  V全部  播放器  目录  M2
+原始來源網址  单曲  全部  播放器  目录  M1  M2
 
   </div>
 </a>
@@ -1011,8 +1011,26 @@
     }
     startTime();
 })();
+    <!-- mytime12 end -->
+
+function copy2clipboard(text) {
+    if (!navigator.clipboard) {
+        fallbackCopyTextToClipboard(text);
+        return;
+    }
+    navigator.clipboard.writeText(text)
+}
+function abspath2(path2) {
+    return new URL( path2 , window.location.href ).href;
+}
+function copypath2clipboard(text3) {
+    copy2clipboard( abspath2(text3) )
+}
+function gotopath4(goto4) {
+    window.setTimeout(function(){window.top.location=abspath2(goto4)} , 1000);
+}
+
 </script>
-    
 
 
   </body>
